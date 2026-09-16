@@ -21,6 +21,13 @@ if (!author) {
 const { Content } = await render(post);
 ---
 
-<BlogPost {...post.data} author={author.data}>
+<BlogPost
+	title={post.data.title}
+	description={post.data.description}
+	pubDate={post.data.pubDate}
+	updatedDate={post.data.updatedDate}
+	heroImage={post.data.heroImage}
+	author={author.data}
+>
 	<Content />
 </BlogPost>
