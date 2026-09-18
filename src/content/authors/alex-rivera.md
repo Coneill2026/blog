@@ -1,6 +1,6 @@
 ---
-name: 'Alex Rivera'
-bio: 'Alex writes about developer tools, reliable systems, and the small decisions that make software easier to live with.'
+name: 'Cian ONeill'
+bio: 'Cian writes about developer tools, reliable systems, and the small decisions that make software easier to live with.'
 avatar: '../../assets/blog-placeholder-about.jpg'
 socialLinks:
 - label: 'GitHub'
