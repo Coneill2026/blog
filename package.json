@@ -10,7 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "test": "vitest",
-    "lint": "eslint .",
+    "lint": "eslint",
     "check": "astro check",
     "astro": "astro"
   },
@@ -22,6 +22,13 @@
     "astro": "^7.3.2",
     "sharp": "^0.35.0",
     "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@typescript-eslint/parser": "^8.70.1",
+    "eslint": "^10.11.0",
+    "eslint-plugin-astro": "^3.2.1",
+    "typescript-eslint": "^8.70.1"
   },
   "allowScripts": {
     "esbuild": true
