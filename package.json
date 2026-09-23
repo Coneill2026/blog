@@ -9,6 +9,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "test": "vitest",
+    "lint": "eslint .",
     "check": "astro check",
     "astro": "astro"
   },
